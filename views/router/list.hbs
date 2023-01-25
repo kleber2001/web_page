@@ -2,25 +2,16 @@
 <table>
     <thead>
         <tr>
-            <th>ip</th>
-            <th>origin</th>
-            <th>metric</th>
-            <th>localpref</th>
-            <th>valid</th>
-            <th>internal</th>
-            <th>date</th>
+            <th>Ip</th>
+            <th>Username</th>
         </tr>
     </thead>
     <tbody>
         {{#each list}}
         <tr>
             <td>{{this.ip}}</td>
-            <td>{{this.origin}}</td>
-            <td>{{this.metric}}</td>
-            <td>{{this.localpref}}</td>
-            <td>{{this.valid}}</td>
-            <td>{{this.internal}}</td>
-            <td>{{this.date}}</td>
+            <td>{{this.username}}</td>
+            
             <td>
                 <a class="btn btn-primary btn-sm" href="/router/{{this.id}}">Edit</a>
                 <a class="btn btn-primary btn-sm" href="/router/delete/{{this.id}}"
