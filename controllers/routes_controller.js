@@ -5,7 +5,7 @@ const Routes = mongoose.model("Routes")
 
 router.get("/", (req,res) => {
     res.render("router/crud", {
-        viewTitle: "Insert Route"
+        viewTitle: "Insert new user"
     });
 });
 
