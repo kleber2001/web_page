@@ -15,8 +15,9 @@ app.use(bodyparser.json())
 
 app.get('/', (req, res) => {
     res.send(`
-    <h2>Welcome to REMOTE CONNECTION</h2>
-    <h3>Click hereto get access to the <b> <a href="/router/list">DATABASE</a></b></h3>
+    <center><h2>Welcome to REMOTE CONNECTION</h2></center>
+    <p></p>
+    <center><h3>Click hereto get access to the <b> <a href="/router/list">Home</a></b></h3></center>
    `);
     
 });
