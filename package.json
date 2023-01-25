@@ -1,5 +1,5 @@
 {
-  "name": "assrapp",
+  "name": "web_page",
   "version": "1.0.0",
   "description": "ASSR APP",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "acollag",
+  "author": "kgnunez",
   "license": "ISC",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.5",
