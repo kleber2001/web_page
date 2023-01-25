@@ -19,8 +19,9 @@ router.post('/', (req,res) => {
 
 function insertRecord(req, res){
     var route = new Routes()
-    route.ip = req.body.ip
     route.username = req.body.username
+    route.ip = req.body.ip
+    
     
     route.save((err, doc) => {
         if (!err) {

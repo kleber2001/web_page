@@ -1,16 +1,15 @@
-<h3><a class="btn btn-secondary" href="/router"> Create New</a> Route</h3>
-<table>
+<h3><a class="btn btn-secondary" href="/router"> New User</a> Connections</h3><table>
     <thead>
         <tr>
-            <th>Ip</th>
-            <th>Username</th>
+            <th>Username  &emsp; </th>
+            <th>Ip</th>            
         </tr>
     </thead>
     <tbody>
         {{#each list}}
         <tr>
-            <td>{{this.ip}}</td>
             <td>{{this.username}}</td>
+            <td>{{this.ip}}</td>          
             
             <td>
                 <a class="btn btn-primary btn-sm" href="/router/{{this.id}}">Edit</a>

@@ -1,14 +1,15 @@
-<h3>{{viewTitle}}</h3>
+<center><h3>{{viewTitle}}</h3></center>
 <form action='/router' method="POST" autocomplete="off">
     <input type="hidden" name="_id" value="{{route._id}}">
+    
     <div class="form-group">
-        <label>Ip</label>
-        <input type="text" class="form-control" name="ip" placeholder="ip" value="{{route.ip}}">
-    </div>
-    <div class="form-group">
-        <label>Username</label>
+        <strong>Username</strong>
         <input type="text" class="form-control" name="username" placeholder="username" value="{{route.username}}">
     
+    <div class="form-group">
+        <strong>Ip</strong>
+        <input type="text" class="form-control" name="ip" placeholder="ip" value="{{route.ip}}">
+    </div>
     <div class="form-group">
         <button type="submit" class="btn btn-info">Submit</button>
         <a class="btn btn-secondary" href="/router/list">View</a>
